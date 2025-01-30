@@ -31,9 +31,6 @@ void test1() {
         wcout << av[0].as_wstring() << ',' << av[1].as_wstring() << endl;
         wcout << serialize(av[0]) << ',' << serialize(av[1]) << endl;
     }
-
-    extern void test_opencv(string path);
-    test_opencv(R"(C:\Users\cccar\Pictures\test\single.png)");
 }
 
 int main(int argc, char* argv[])
